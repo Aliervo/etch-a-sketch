@@ -1,19 +1,29 @@
-html, body {
+html {
+	display: flex;
 	height: 100%;
-	margin: 0;
+	align-items: center;
+	justify-content: center;
+	background-color: black;
 	overflow: hidden;
+}
+
+body {
+	width: fit-content;
+	background-color: white;
 }
 
 #reset {
 	position: fixed;
+	top: .5rem;
+	left: .5rem;
+	width: 5rem;
+	height: 3rem;
 }
 
 .container {
 	display: grid;
 	width: 100vmin;
 	height: 100vmin;
-/*	grid-template-columns: repeat(16, 1fr);
-	grid-template-rows: repeat(16, 1fr);*/
 	border: 1px solid black;
 	margin: 0 auto;
 }
