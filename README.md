@@ -9,6 +9,6 @@ The RGBtoHSL javascript file is currently unused. I wanted to preserve "good" (r
 Potential future follow ups:
 * I would like to clean up a few of the arrow functions to make my code more readable.
 * I would like to make my RGBtoHSL converter usable in the project since I went through the trouble of making it.
-* I would like to set some postioning logic for the button to prevent it from covering the draw area when the screen width is shorter than the height (a la mobile phones).
+* ~~I would like to set some positioning logic for the button to prevent it from covering the draw area when the screen width is shorter than the height (a la mobile phones).~~ Implemented by moving the sketch area based on screen dimensions.
 * I may come back and play with the colors some more, possibly allow color/palette picking.
 * I may also look into adding some click functionality. Perhaps left click to draw, right click to erase.
